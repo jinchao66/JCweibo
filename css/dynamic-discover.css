@@ -1,0 +1,385 @@
+#dynamic-index{
+    width: 100%;
+    flex: 1;
+    background-color: #E5E5E5;
+    position: relative;
+    overflow: scroll;
+
+}
+#juzhong{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+
+/*  list  */
+.discover-list{
+    /*display: flex;*/
+    align-items: center;
+    clear: both;
+    background-color: #F9F9F9;
+    /*border-bottom: 1px solid #E5E5E5;*/
+    max-width: 500px;
+    width: 100%;
+    height: 330px;
+    /*height: 33%;*/
+    /*display: flex;*/
+    flex-flow: column;
+    justify-content: space-between;
+}
+.discover-list-top{
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+#dis-list-top-ico{
+    height: 98%;
+    width: 100%;
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    display: flex;
+
+}
+#dis-list-top-ico img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+@keyframes vary{
+    0%,25%{
+        margin-left: 0px;
+    }
+    25%,50%{
+        margin-left: -200%;
+    }
+    50%,75%{
+        margin-left: -400%;
+    }
+    75%,100%{
+        margin-left: -600%;
+    }
+
+}
+
+.vary{
+    animation: vary 6s ease-in-out infinite alternate;
+}
+
+
+.discover-list-center{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+}
+.dis-list-center-content{
+    height: 61px;
+    width: 61px;
+    flex-flow: column;
+
+}
+.d-l-c-c-ico{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+
+}
+.d-l-c-c-ico-img{
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#new\ friend-ico{
+    background-color: #fbaf13;
+}
+#new\ friend-ico-img{
+    background-image: url(../img/newfriend.svg);
+}
+#tianjin-ico{
+    background-color: #65c601;
+}
+#tianjin-ico-img{
+    background-image: url(../img/tianjin.svg);
+}
+#game-ico{
+    background-color: #3e9ae1;
+}
+#game-ico-img{
+    background-image: url(../img/game.svg);
+}
+#live-icco{
+    background-color: #f8615f ;
+}
+#live-icco-img{
+    background-image: url(../img/live.svg);
+}
+#movie-ico{
+    background-color: #f8ad18;
+}
+#movie-ico-img{
+    background-image: url(../img/move.svg);
+}
+#ulife-ico{
+    background-color: #ec6061;
+}
+#ulife-ico-img{
+    background-image: url(../img/u-life.svg);
+}
+#sports-ico{
+    background-color: #a90103;
+}
+#sports-ico-img{
+    background-image: url(../img/sports.svg);
+}
+#music-ico{
+    background-color: #5bbfba;
+}
+#music-ico-img{
+    background-image: url(../img/music.svg);
+}
+#shop-ico{
+    background-color: #f1ad43;
+}
+#shop-ico-img{
+    background-image: url(../img/shop.svg);
+}
+#more-ico{
+    background-color: #a2a9c1;
+}
+#more-ico-img{
+    height: 15px;
+    width: 15px;
+    background-image: url(../img/more.svg);
+}
+
+
+
+
+
+
+.d-l-c-c-name{
+    height: 20px;
+    width: 100%;
+    font-size: 10px;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.discover-list-bottom{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#discover-fist-bottom-left{
+    height: 100%;
+    flex: 1;
+    flex-flow: column;
+}
+#f-b-l-top{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+.f-b-l-ico{
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.jinghao{
+    background-color: #3eb6f6;
+    background-image: url(../img/井号.svg);
+
+}
+.chaohua{
+    background-color: #ef6733;
+    background-image: url(../img/超级话题-超级话题点击态.svg);
+}
+.f-b-l-name{
+    height: 20px;
+    flex: 1;
+    text-indent: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+#f-b-l-bottom{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+#discover-fist-bottom-right{
+    height: 100%;
+    flex: 1;
+    flex-flow: column;
+}
+#f-b-r-top{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+}
+.f-b-r-ico{
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.f-b-r-name{
+    height: 20px;
+    flex: 1;
+    text-indent: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+#f-b-r-bottom{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+}
+
+
+#discover-list-video-menu{
+    height: 40px;
+    width: 100%;
+    max-width:500px;
+    background-color: #f8f8f8;
+    margin-top: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+#video-name{
+    height: 90%;
+    width: 90%;
+    display: flex;
+}
+.five-menu{
+    height: 100%;
+    width: 20%;
+    font-size: 16px;
+    font-weight: 100;
+    color: #8B8E93;
+}
+p2{
+    color: #212121;
+    font-weight: 500;
+    font-size: 18px;
+}
+.discover-list-video{
+    height: 320px;
+    width: 100%;
+    max-width: 500px;
+    background-color: #f8f8f8;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+.video-top{
+    flex: 1;
+    width: 100%;
+}
+.vtv{
+    height: 90%;
+    width: 95%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video-center{
+    height: 40px;
+    width: 95%;
+    font-size: 13px;
+}
+.video-bottom{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vb-ico{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vb-name{
+    height: 25px;
+    flex: 1;
+    font-size: 12px;
+    color: #8B8E93;
+    display: flex;
+    align-items: center;
+    text-indent: 10px;
+
+}
+.vb-talk{
+    height: 25px;
+    width: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pinglun14{
+    background-image: url(../img/12pinglun.svg);
+}
+.fenxiang16{
+    background-image: url(../img/16fenxiang.svg);
+}
+.dianzan16{
+    background-image: url(../img/16dianzan.svg);
+}
+.vb-share{
+    height: 25px;
+    width: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.vb-like{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#v1{
+    background-image: url(../img/v1.PNG);
+}
+#v1-ico{
+    background-image: url(../img/v1-ico.jpg);
+}
+#v2{
+    background-image: url(../img/v2.PNG);
+}
+#v2-ico{
+    background-image: url(../img/v2-ico.jpg);
+}
+#v3{
+    background-image: url(../img/v3.PNG);
+}
+#v3-ico{
+    background-image: url(../img/v3-ico.jpg);
+}

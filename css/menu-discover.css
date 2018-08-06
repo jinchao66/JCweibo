@@ -1,0 +1,341 @@
+#menu-discovers{
+    width: 100%;
+    height: 49px;
+    min-height: 49px;
+    background-color:#F9F9F9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top:1px solid #E5E5E5;
+
+}
+.menu-ico{
+    height: 24px;
+    width: 24px;
+}
+.menu-name{
+    height: 10px;
+    width: 40px;
+    font-size: 8px;
+}
+/*
+
+
+
+*/
+#menu-home{
+    height: 40px;
+    flex: 1;
+    flex-flow: column;
+}
+#home-ico{
+    background-image: url(../img/home白.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*
+
+
+
+*/
+#menu-message{
+    height: 40px;
+    flex: 1;
+    flex-flow: column;
+}
+#mes-ico{
+    background-image: url(../img/message白.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*
+
+
+
+
+*/
+#menu-add{
+    height: 40px;
+    flex: 1;
+    flex-flow: column;
+}
+#add-ico{
+    height: 34px;
+    width: 34px;
+    background-image: url(../img/add-box.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#add-content{
+
+    display: none;
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: #f1f1f1;
+    opacity: 0.98;
+}
+#content-boom{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+#content-top{
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#c-t-date{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+#date-big{
+    height: 90px;
+    width: 120px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+#big-small1{
+    height: 70px;
+    width: 70px;
+    font-size: 50px;
+    color:gray() ;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+#big-small2{
+    height: 70px;
+    width: 50px;
+}
+.sm2{
+    font-size: 12px;
+    color:gray() ;
+    display: flex;
+    flex-flow: column;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#sm21{
+    height: 30px;
+    width: 100%;
+}
+#sm22{
+    height: 30px;
+    width: 100%;
+}
+#date-sky{
+    height: 30px;
+    width: 150px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+#c-t-ad{
+    height: 150px;
+    width: 150px;
+}
+#ad-img{
+    margin-top: 30px;
+    height: 120px;
+    width: 150px;
+    background-image: url(../img/广告.PNG);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#content-no{
+    flex: 1;
+    width: 100%;
+}
+#content-center{
+    flex: 2;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.center-ico{
+    height: 85px;
+    width: 85px;
+    flex-flow: column;
+}
+.ico-ico{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#text-ico{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #E54F7A;
+}
+#cam-ico{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #35B77F;
+}
+#album-ico{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #5BB3D9;
+}
+#live-ico{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F16D5F;
+}
+#sli-ico{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #5BB3D9;
+}
+#article-ico{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #FDA101;
+}
+#check-ico{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #35b77f;
+}
+#review-ico{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #5bb3d9;
+}
+#ico-text{
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/text-2.svg);
+
+}
+#ico-cam{
+    height: 25px;
+    width: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/cemra.svg);
+
+}
+#ico-album{
+    height: 25px;
+    width: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/xiangce.svg);
+
+}
+#ico-live{
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/直播-01.svg);
+
+}
+#ico-sli{
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-image: url(../img/swt-icon-电影.svg);
+
+}
+#ico-article{
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-image: url(../img/lightning-b-闪电.svg);
+
+}
+#ico-check{
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-image: url(../img/定位.svg);
+
+}
+#ico-review{
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/我的收藏.svg);
+
+
+}
+.ico-name{
+    height: 15px;
+    width: 60px;
+    font-size: 12px;
+    color: #6E757F;
+    margin-top: 10px;
+}
+
+
+#content-bottom{
+    height: 60px;
+    width: 100%;
+}
+#b-close{
+    height: 20px;
+    width: 20px;
+    background-image: url(../img/关闭.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*
+
+
+
+
+*/
+#menu-discover{
+    height: 40px;
+    flex: 1;
+    flex-flow: column;
+}
+#dis-ico{
+    background-image: url(../img/放大镜黑.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*
+
+
+
+
+
+*/
+#menu-me{
+    height: 40px;
+    flex: 1;
+    flex-flow: column;
+}
+#me-ico{
+    background-image: url(../img/me白.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,126 @@
+#title-index{
+    width: 100%;
+    height: 44px;
+    min-height: 44px;
+    background-color:#F9F9F9;
+    justify-content: space-between;
+    border-bottom:1px solid #E5E5E5;
+    display: flex;
+    position: relative;
+}
+#title-camera{
+    height: 24px;
+    width: 24px;
+    background-image: url(../img/相机.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+#title-following{
+    height: 40px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 700;
+}
+#title-following div{
+    height: 20px;
+    width: 80px;
+}
+#title-hot{
+    height: 40px;
+   flex: 1;
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+    color: #8B8E93;
+}
+#title-hot div{
+    height: 20px;
+    width: 70px;
+
+}
+#title-scan{
+    height: 20px;
+    width: 20px;
+    background-image: url(../img/扫码.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: 15px;
+}
+#scan-content{
+
+    display: none;
+
+    z-index: 1;
+    height:100px;
+    width: 140px;
+    position: fixed;
+    top: 50px;
+    right: 5px;
+    /*background-color: #f1f1f1;*/
+    opacity: 0.98;
+}
+#scan-c-j{
+    width: 0px;
+    height: 0px;
+    border-bottom:7px solid #CBCBCB;
+    border-top: 7px solid transparent;
+    border-right:7px solid transparent ;
+    border-left: 7px solid transparent;
+    margin-left: 115px;
+}
+#scan-c-k{
+    width: 136px;
+    height: 82px;
+    background-color: #F8F8F8;
+    border-radius: 4px;
+    margin-left: 4px;
+    box-shadow: 0px 0px 10px gray;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+#s-c-k-1{
+    height: 50%;
+    width: 100%;
+    border-bottom: 1px solid #cbcbcb;
+    display: flex;
+    justify-content: center;
+}
+#s-c-k-ico1{
+       height: 25px;
+       width: 25px;
+    background-image: url(../img/scanscan.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#s-c-k-name1{
+    height: 25px;
+    width: 60px;
+    font-size: 13px;
+}
+#s-c-k-2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#s-c-k-ico2{
+    height: 25px;
+    width: 25px;
+    background-image: url(../img/加人.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#s-c-k-name2{
+    height: 25px;
+    width: 60px;
+    font-size: 13px;
+}

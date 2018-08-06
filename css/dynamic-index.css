@@ -1,0 +1,254 @@
+#dynamic-index{
+    width: 100%;
+    flex: 1;
+    background-color: #E5E5E5;
+    position: relative;
+
+    overflow: scroll;
+}
+/*  我的故事   */
+#story{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: #F9F9F9;
+    border-bottom:1px solid #E5E5E5;
+}
+.story-my-other {
+    height: 70px;
+    width: 70px;
+    flex-flow: column;
+}
+.story-photo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3px;
+}
+.other-photo{
+    border: 1px #FC7F01 solid;
+}
+#my-photo{
+    background-image: url(../img/我的头像.png);
+}
+#xuan-photo{
+    background-image: url(../img/小选头像.jpg);
+}
+#xiao-photo{
+    background-image: url(../img/小程头像.jpg);
+}
+#juju-photo{
+    background-image: url(../img/susujuju头像.jpg);
+}
+#he-photo{
+    background-image: url(../img/小何头像.jpg);
+}
+.story-name{
+    height: 14px;
+    width: 50px;
+    font-size: 8px;
+
+    /*word-break: keep-all;*/
+    /*text-overflow: ellipsis;*/
+    /*overflow: hidden;*/
+}
+/*  故事结束  */
+
+/*  list  */
+.home-list{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    clear: both;
+    background-color: #F9F9F9;
+    border-bottom: 10px solid #E5E5E5;
+}
+.star-list{
+    width: 100%;
+    max-width: 600px;
+    /*height: 62.5%;*/
+    min-height:260px;
+    float: left;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.list-top{
+    height:50px ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.top-left{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #E5E5E5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+#top-photo-xuan{
+    background-image: url(../img/小选头像.jpg);
+}
+#top-photo-cheng{
+    background-image: url(../img/小程头像.jpg);
+}
+#top-photo-sj{
+    background-image: url(../img/susujuju头像.jpg);
+}
+
+.top-right{
+    height: 40px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+.top-right-name{
+    height: 20px;
+    width: 100%;
+    text-indent: 10px;
+    color: black;
+    font-size: 14px;
+}
+
+.top-right-time\&from{
+    height: 10px;
+    width: 100%;
+    display: flex;
+    font-size: 10px;
+}
+.right-time{
+    text-indent: 10px;
+    color: #8B8E93;
+}
+.right-from{
+    color: royalblue;
+}
+
+
+
+
+
+
+
+.list-content{
+    min-height: 50px;
+    width: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.content-text{
+    font-size: 15px;
+    color: #212121;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+
+
+
+.list-picture{
+    width: 100%;
+    float: left;
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:flex-start;
+    align-content: flex-start;
+    margin-top: 5px;
+
+}
+.picture{
+    height: 112px;
+    width: 112px;
+    margin-left: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#xuan1{
+    background-image: url(../img/xuan1.jpg);
+}
+#xuan2{
+    background-image: url(../img/xuan2.jpg);
+}
+#xuan3{
+    background-image: url(../img/xuan3.jpg);
+}
+#xuan4{
+    background-image: url(../img/xuan4.jpg);
+}
+#xuan5{
+    background-image: url(../img/xuan5.jpg);
+}
+#xuan6{
+    background-image: url(../img/xuan6.jpg);
+}
+
+#cheng1{
+    background-image: url(../img/cheng1.jpg);
+}
+#cheng2{
+    background-image: url(../img/cheng2.jpg);
+}
+#cheng3{
+    background-image: url(../img/cheng3.jpg);
+}
+
+#sj1{
+    background-image: url(../img/sj1.jpg);
+}
+#sj2{
+    background-image: url(../img/sj2.jpg);
+}
+#test-a{
+    text-decoration: none;
+    color: royalblue;
+    font-size: 14px;
+}
+
+
+.list-bottom{
+    height: 30px;
+    width: 100%;
+    background-color: #F9F9F9;
+    border-top: 1px solid #E5E5E5;
+    display: flex;
+
+}
+.bottom-take{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+.bottom-ico{
+    height: 15px;
+    width: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bottom-number{
+    height: 20px;
+    width: 30px;
+    color: #707070;
+    font-size: 10px;
+}
+.transmit-ico{
+    background-image: url(../img/转发.svg);
+}
+.comment-ico{
+    background-image: url(../img/评论.svg);
+}
+.like-ico{
+    background-image: url(../img/点赞.svg);
+}
+/*  list  end  */
