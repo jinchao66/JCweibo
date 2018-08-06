@@ -177,6 +177,7 @@
     /*justify-content: space-evenly;*/
     justify-content: space-between;
     margin-left: calc((100% - 260px)/2);
+    margin-right: calc((100% - 260px)/2);
 
 }
 .second-top-content{
