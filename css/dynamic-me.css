@@ -237,7 +237,9 @@
     height: 84px;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    /*justify-content: space-evenly;*/
+    justify-content: space-between;
+    margin-left: calc((100% - 260px)/5);
     align-items: center;
 }
 .third-center-ico{
