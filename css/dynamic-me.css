@@ -246,7 +246,7 @@
     height: 84px;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin-left: calc((100% - 350px)/2);
     margin-right: calc((100% - 350px)/2);
