@@ -387,7 +387,9 @@
     height: 112px;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-left: calc((100% - 80%)/2);
+    margin-right: calc((100% - 80%)/2);
     align-items: center;
 }
 #six-center-gold{
@@ -486,8 +488,10 @@
     height: 72px;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    margin-left: calc((100% - 80%)/2);
+    margin-right: calc((100% - 80%)/2);
 }
 #seventh-center-vip{
     height: 80%;
@@ -572,8 +576,10 @@
     height: 112px;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    margin-left: calc((100% - 80%)/2);
+    margin-right: calc((100% - 80%)/2);
 }
 #eight-center-fans{
     height: 80%;
