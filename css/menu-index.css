@@ -166,13 +166,16 @@
     /*justify-content: space-evenly;*/
     /*align-content: space-evenly;*/
     justify-content: space-between;
-    margin-left: calc((100% - 340px)/5);
-    margin-top: calc((100% - 340px)/3);
+    align-content: center;
+    /*margin-left: calc((100% - 340px)/2);*/
+    /*margin-right: calc((100% - 340px)/2);*/
+
 }
 .center-ico{
     height: 85px;
     width: 85px;
     flex-flow: column;
+    margin-top: 30px;
 }
 .ico-ico{
     height: 60px;

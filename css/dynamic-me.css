@@ -174,7 +174,10 @@
     height: 50%;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    /*justify-content: space-evenly;*/
+    justify-content: space-between;
+    margin-left: calc((100% - 260px)/2);
+
 }
 .second-top-content{
     height: 65px;
@@ -196,7 +199,11 @@
     height: 50%;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    /*justify-content: space-evenly;*/
+    justify-content: space-between;
+    margin-left: calc((100% - 260px)/2);
+    margin-right: calc((100% - 260px)/2);
+
 }
 .second-bottom-content{
     height: 65px;
@@ -237,9 +244,7 @@
     height: 84px;
     width: 100%;
     display: flex;
-    /*justify-content: space-evenly;*/
-    justify-content: space-between;
-    margin-left: calc((100% - 260px)/5);
+    justify-content: space-evenly;
     align-items: center;
 }
 .third-center-ico{
